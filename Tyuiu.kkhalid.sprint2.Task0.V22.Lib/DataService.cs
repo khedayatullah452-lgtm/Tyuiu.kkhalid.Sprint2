@@ -17,7 +17,7 @@ namespace Tyuiu.kkhalid.sprint2.Task0.V22.Lib
             res[0] = x == y; // false
             res[1] = x != y; // True
             res[2] = x > y * 40; // True
-            res[3] = y > 100; // True 
+            res[3] = y < 100; // True 
             res[4] = x >= 3105; // True
             res[5] = y <= 76; // False
             
