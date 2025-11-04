@@ -12,9 +12,9 @@ namespace Tyuiu.kkhalid.sprint2.Task3.V28.Test
         public void ValidCondition1()
         {
             DataService ds = new DataService();
-           double x = 0;
+           double x = 2;
            double res = ds. Calculate(x);
-            double wait = -5.000;
+            double wait = -1.133;
             Assert.AreEqual(res, wait);
 
 

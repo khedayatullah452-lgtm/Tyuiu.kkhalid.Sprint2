@@ -14,7 +14,7 @@ namespace Tyuiu.kkhalid.sprint2.Task3.V28.Lib
         {
            double y = 0;
 
-            if (x == 0)
+            if (x > 0)
             {
                 y = ((x * x) + Math.Cos(x * x) - 11) / ((x * x) - Math.Sin(x * x) + 2);
             }
