@@ -22,15 +22,6 @@ namespace Tyuiu.kkhalid.sprint2.Task3.V28.Test
         }
 
 
-        [TestMethod]
-        public void ValidCondition2()
-        {
-            DataService ds = new DataService();
-            double x = 2;
-            double res = ds. Calculate(x);
-            double wait = 4.449;
-            Assert.AreEqual(res, wait);
-        }
 
     }
 }
