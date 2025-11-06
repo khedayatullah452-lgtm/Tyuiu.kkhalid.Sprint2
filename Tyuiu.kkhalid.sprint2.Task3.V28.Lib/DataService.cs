@@ -17,7 +17,7 @@ namespace Tyuiu.kkhalid.sprint2.Task3.V28.Lib
             if (x > 1)
             {
               double numerator = Math.Cos(Math.Pow(x, 2));
-                double denominator = x - 1;
+                double denominator = (x - 1);
                 double fraction= numerator / denominator;
                 double power = Math.Pow(fraction, x + 3 );
                 y = x + power;
