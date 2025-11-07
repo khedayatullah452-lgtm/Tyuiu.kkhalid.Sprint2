@@ -11,10 +11,10 @@ namespace Tyuiu.kkhalid.sprint2.Task4.V6.Test
         public void ValidCondition1()
         {
             DataService ds = new DataService();
-            double x = 30;
-            double y = 10;
+            double x = 9;
+            double y = 4;
             double res = ds.Calculate(x, y);
-            double wait = 309.375;
+            double wait = 36.818;
             Assert.AreEqual(wait, res);
         }
 
