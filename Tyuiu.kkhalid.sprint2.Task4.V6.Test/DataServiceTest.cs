@@ -23,7 +23,7 @@ namespace Tyuiu.kkhalid.sprint2.Task4.V6.Test
             {
                 DataService ds = new DataService();
                 double x =25;
-                double y =40 ;
+                double y =40;
                 double res = ds.Calculate(x, y);
                 double wait = 2100.240;
                 Assert.AreEqual(wait, res);

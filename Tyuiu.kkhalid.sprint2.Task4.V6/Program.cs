@@ -22,6 +22,7 @@ namespace Tyuiu.kkhalid.sprint2.Task4.V6
             Console.WriteLine(" Введите значение переменной Y ");
 
             double x = Convert.ToDouble(Console.ReadLine());
+
             double y = Convert.ToDouble(Console.ReadLine());
             double res = ds.Calculate(x,y);
 
