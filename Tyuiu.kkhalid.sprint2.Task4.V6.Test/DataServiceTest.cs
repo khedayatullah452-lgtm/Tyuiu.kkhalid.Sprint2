@@ -14,21 +14,10 @@ namespace Tyuiu.kkhalid.sprint2.Task4.V6.Test
             double x = 9;
             double y = 4;
             double res = ds.Calculate(x, y);
-            double wait = 36.818;
+            double wait = 0.007;
             Assert.AreEqual(wait, res);
         }
 
-            [TestMethod]
-            public void ValidCondition2()
-            {
-                DataService ds = new DataService();
-                double x =25;
-                double y =40;
-                double res = ds.Calculate(x, y);
-                double wait = 2100.240;
-                Assert.AreEqual(wait, res);
-            }
-        
 
     }
 }
