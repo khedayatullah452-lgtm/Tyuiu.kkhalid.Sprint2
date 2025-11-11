@@ -28,7 +28,7 @@ namespace Tyuiu.kkhalid.sprint2.Task5.V8
             }
             else
             {
-                res = " 1 , 12 : " + ds.FindDateOfPreviousDay(m,n);
+                res = (" 1 , 12) : " + ds.FindDateOfPreviousDay(m,n);
             }
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ                      *");
