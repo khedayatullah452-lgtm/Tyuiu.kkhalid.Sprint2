@@ -16,7 +16,7 @@ namespace Tyuiu.kkhalid.sprint2.Task6.V3.Lib
 
             switch (value)
             {
-                case 1: return "понедельнил";
+                case 1: return "понедельник";
                 case 2: return "вторник";
                 case 3: return "среда";
                 case 4: return "четверг";
