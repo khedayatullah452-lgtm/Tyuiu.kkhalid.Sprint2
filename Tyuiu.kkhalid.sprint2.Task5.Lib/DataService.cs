@@ -69,7 +69,7 @@ namespace Tyuiu.kkhalid.sprint2.Task5.V8.Lib
                     res = "Декабрь";
                     break;
                 default:
-                    throw new ArgumentException(" All of Mounth is Betwin (1 ,12) . more than (12) is roung ");
+                    throw new ArgumentException( $" All of Mounth is Betwin (1 ,12) . more than (12) is roung ");
             }
             return res;
         }  

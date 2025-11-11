@@ -18,7 +18,7 @@ namespace Tyuiu.kkhalid.sprint2.Task5.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(" showe me just the number of the day");
+            Console.WriteLine(" Showe me just the number of the day");
             int m = Convert.ToInt32(Console.ReadLine());
             int n = Convert.ToInt32(Console.ReadLine());
                 string res;

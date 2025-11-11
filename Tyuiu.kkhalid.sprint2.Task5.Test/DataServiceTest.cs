@@ -33,7 +33,7 @@ namespace Tyuiu.kkhalid.sprint2.Task5.V8.Test
 
             Assert.ThrowsException<ArgumentException>(() =>
             {
-                ds.FindDateOfPreviousDay(3,30);
+                ds.FindDateOfPreviousDay(1,31);
 
             });
 
